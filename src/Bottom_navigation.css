@@ -1,0 +1,29 @@
+.footerClass{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-top: 3px solid #dcdcdcf3;;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Icons{
+    color: #000000;
+    padding: 2PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40px;
+    /* background-color: #054861 */
+    padding-top: 10px;
+    text-decoration: none;
+}  
+.Icons p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+
+}

@@ -1,0 +1,37 @@
+.searchClass input{
+    background-color: white;
+    width: 340px;
+    padding: 2px;
+    border: 1px solid rgb(113, 113, 113);
+    height: 40px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: black;
+}
+.searchClass{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 55px;
+    margin-bottom: 10px;
+}
+.location{
+    background-color: black;
+    width: auto;
+}
+.location h1{
+    color: white;
+    font-size: large;
+    margin-top: 0.7rem;
+}
+.headingLocation{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
