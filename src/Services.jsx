@@ -24,19 +24,19 @@ export default function Servicesfunction() {
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/plumberrweb.webp' width="90px" height="50px"></img>
+                        <img src='src/assets/plumberrweb.webp'  alt="akshta" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>Plumber</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/electricianweb.webp' width="90px" height="50px"></img>
+                        <img src='src/assets/electricianweb.webp'  alt="akshta" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>Electrician</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/cleaningweb.webp' width="90px" height="50px"></img>
+                        <img src='src/assets/cleaningweb.webp' width="90px" alt="akshta" height="50px"></img>
                     </div>
                     <p className='para'>Full Home</p>
                     <p className='para'>Deep Cleaning</p>
