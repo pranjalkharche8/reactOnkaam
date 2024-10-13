@@ -10,6 +10,7 @@ import Errorr from './Error';
 import Bnav from './Bottom_nav';
 import Locatdect from './Location';
 import Booking from './Booking/Book';
+import ParentComponent from './Assitants/Paresnt';
 export default function homepageFunction(){
     return(
         <div>
@@ -22,6 +23,7 @@ export default function homepageFunction(){
             <Airfunction Heading="Electrical Services"></Airfunction>
             <Bnav></Bnav>
             <Booking></Booking>
+            <ParentComponent></ParentComponent>
             <Footerfunction></Footerfunction>
         </div>
     )

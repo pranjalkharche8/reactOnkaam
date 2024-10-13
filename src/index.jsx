@@ -11,6 +11,8 @@ import Booking from './Booking/Book.jsx';
 import Assistant from './Assitants/Ass';
 import Account from './Account/Account';
 import Book from './Booking/Book.jsx';
+import Billfunction from './Booking/bills.jsx';
+import Childdd from './Assitants/Child.jsx';
 createRoot(document.getElementById('root')).render(
   <div>
     <BrowserRouter>
@@ -23,6 +25,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/account" element={<Account />}></Route>
         <Route path="/book" element={<Book/>}></Route>
         <Route path='*' element={<Errorr/>}></Route>
+        <Route path='/bill' element={<Billfunction></Billfunction>}></Route>
+        <Route path='/child' element={<Childdd></Childdd>}></Route>
       </Routes>
     </BrowserRouter>
   </div>
