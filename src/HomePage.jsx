@@ -9,6 +9,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Errorr from './Error';
 import Bnav from './Bottom_nav';
 import Locatdect from './Location';
+import Booking from './Booking/Book';
 export default function homepageFunction(){
     return(
         <div>
@@ -20,8 +21,8 @@ export default function homepageFunction(){
             <BreakLO></BreakLO>
             <Airfunction Heading="Electrical Services"></Airfunction>
             <Bnav></Bnav>
+            <Booking></Booking>
             <Footerfunction></Footerfunction>
-            {/* <Locatdect></Locatdect> */}
         </div>
     )
 }

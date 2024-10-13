@@ -1,0 +1,19 @@
+.elemain{
+    display: flex;
+    flex-direction: column;
+}
+.electricianc{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.electricianc h3{
+    display: inline;
+    margin-bottom: 0%;
+    margin-left: 0.8rem;
+}
+.electricianc i{
+}

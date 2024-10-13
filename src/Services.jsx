@@ -1,6 +1,12 @@
 import React from 'react';
 import "./Services.css";
-import logo from "./assets/painterthird.svg";
+import ac from "./assets/acweb.webp";
+import plumber from "./assets/plumberrweb.webp";
+import electrician from "./assets/electricianweb.webp";
+import cleaning from "./assets/cleaningweb.webp";
+import hair from "./assets/hair.apng";
+import painter from './assets/painterrweb.webp';
+import { Link } from 'react-router-dom';
 
 export default function Servicesfunction() {
     return (
@@ -9,40 +15,42 @@ export default function Servicesfunction() {
             <div className='servicesContainer'>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src={logo} alt='painter' width="90px" height="50px" />
+                        <Link to="/book">           
+                        <img src={ac} alt='painter' width="90px" height="50px" />
+                        </Link>
                     </div>
                     <p className='para'>AC Repair &</p>
                     <p className='para'>Service</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/painterthird.svg' alt="akshta" width="90px" height="50px"></img>
+                        <img src={painter} alt="akshta" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>Painter</p>
                     <p></p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/plumberrweb.webp'  alt="akshta" width="90px" height="50px"></img>
+                        <img src={plumber}  alt="akshta" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>Plumber</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/electricianweb.webp'  alt="akshta" width="90px" height="50px"></img>
+                        <img src={electrician}  alt="akshta" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>Electrician</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/cleaningweb.webp' width="90px" alt="akshta" height="50px"></img>
+                        <img src={cleaning} width="90px" alt="akshta" height="50px"></img>
                     </div>
                     <p className='para'>Full Home</p>
                     <p className='para'>Deep Cleaning</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/hair.apng' alt="adssd" width="90px" height="50px"></img>
+                        <img src={hair} alt="adssd" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>Men & Women </p>
                     <p className='para'>Salons</p>

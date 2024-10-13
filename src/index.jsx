@@ -10,7 +10,7 @@ import Arcomponents from './Augmented_Reality/ar.jsx';
 import Booking from './Booking/Book.jsx';
 import Assistant from './Assitants/Ass';
 import Account from './Account/Account';
-
+import Book from './Booking/Book.jsx';
 createRoot(document.getElementById('root')).render(
   <div>
     <BrowserRouter>
@@ -21,6 +21,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/booking" element={<Booking />}></Route>
         <Route path="/assistant" element={<Assistant />}></Route>
         <Route path="/account" element={<Account />}></Route>
+        <Route path="/book" element={<Book/>}></Route>
+        <Route path='*' element={<Errorr/>}></Route>
       </Routes>
     </BrowserRouter>
   </div>
