@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Services.css";
-
+import logo from "./assets/painterthird.svg";
 
 export default function Servicesfunction() {
     return (
@@ -9,7 +9,7 @@ export default function Servicesfunction() {
             <div className='servicesContainer'>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/painterthird.svg' alt="AKSHAT" width="90px" height="50px"></img>
+                        <img src={logo} alt='painter' width="90px" height="50px" />
                     </div>
                     <p className='para'>AC Repair &</p>
                     <p className='para'>Service</p>
