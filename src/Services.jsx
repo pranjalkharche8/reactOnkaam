@@ -9,12 +9,11 @@ export default function Servicesfunction() {
             <div className='servicesContainer'>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/acweb.webp' alt="akshat" width="90px" height="50px"></img>
+                        <img src='src/assets/painterthird.svg' alt="AKSHAT" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>AC Repair &</p>
                     <p className='para'>Service</p>
                 </div>
-
                 <div className='serCon'>
                     <div className='ser'>
                         <img src='src/assets/painterthird.svg' alt="akshta" width="90px" height="50px"></img>
@@ -43,7 +42,7 @@ export default function Servicesfunction() {
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
-                        <img src='src/assets/hair.apng' width="90px" height="50px"></img>
+                        <img src='src/assets/hair.apng' alt="adssd" width="90px" height="50px"></img>
                     </div>
                     <p className='para'>Men & Women </p>
                     <p className='para'>Salons</p>
