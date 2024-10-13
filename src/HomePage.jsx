@@ -18,12 +18,12 @@ export default function homepageFunction(){
             <Servicesfunction></Servicesfunction>
             {/* <Bottomnavfunction></Bottomnavfunction> */}
             <BreakLO></BreakLO>
-            <Airfunction Heading="Repair & Maintenance"></Airfunction>
-            <BreakLO></BreakLO>
-            <Airfunction Heading="Electrical Services"></Airfunction>
-            <Bnav></Bnav>
+            {/* <Airfunction Heading="Repair & Maintenance"></Airfunction> */}
+            {/* <BreakLO></BreakLO> */}
+            {/* <Airfunction Heading="Electrical Services"></Airfunction> */}
+            {/* <Bnav></Bnav> */}
             <Booking></Booking>
-            <ParentComponent></ParentComponent>
+            {/* <ParentComponent></ParentComponent> */}
             <Footerfunction></Footerfunction>
         </div>
     )
