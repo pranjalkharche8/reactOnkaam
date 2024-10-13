@@ -13,6 +13,7 @@ import Account from './Account/Account';
 import Book from './Booking/Book.jsx';
 import Billfunction from './Booking/bills.jsx';
 import Childdd from './Assitants/Child.jsx';
+import Timeanddate from './Booking/time.jsx';
 createRoot(document.getElementById('root')).render(
   <div>
     <BrowserRouter>
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='*' element={<Errorr/>}></Route>
         <Route path='/bill' element={<Billfunction></Billfunction>}></Route>
         <Route path='/child' element={<Childdd></Childdd>}></Route>
+        <Route path="/time" element={<Timeanddate></Timeanddate>}></Route>
       </Routes>
     </BrowserRouter>
   </div>

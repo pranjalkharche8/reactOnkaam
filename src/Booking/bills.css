@@ -1,0 +1,65 @@
+.itempayment{
+    display: flex;
+    flex-direction: column;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+}
+.total p{
+    font-size: 1.2rem;
+}
+.taxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 2.5rem;   
+}
+.taxes p{
+    text-decoration: underline dotted;
+    text-underline-position: under;
+    font-size: 1.2rem;
+}
+.visited {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 2.5rem;   
+}
+.visited p{
+    text-decoration: underline dotted;
+    text-underline-position: under;
+    font-size: 1.19rem;
+}
+.totalfees{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+}
+.totalfees p{
+    text-decoration: none;
+    text-underline-position: under;
+    font-size: 1.19rem;    
+}
+.slot{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 6px;
+}
+.slot button{
+    width: 350px;
+    padding-right: 1rem;
+    font-weight: 650;
+}
