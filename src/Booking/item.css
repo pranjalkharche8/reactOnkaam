@@ -1,5 +1,5 @@
 h3{
-    margin: 0.5rem;
+    
 }
 .itemmain{
     display: flex;
@@ -10,20 +10,25 @@ h3{
 .itemheadings{
     display: flex;
     flex-direction: column;
+    padding-left: 0.2rem;
 }
 .itemheadings p{
     text-align: left;
-    margin-left: 1.1rem;
-    margin-bottom: 0%;
+    margin-left: 0;
     font-weight: 900;
+    
+}
+.ratingp{
+    text-decoration-line: underline dotted;
+    margin-bottom: 10px;
+    -moz-text-decoration-line: underline dotted;
+}
+.itemheadings h3{
+    font-weight: 800;
+    margin-left: 0;
 }
 
-.itemheadings p{
-    text-align: left;
-    margin-left: 1.1rem;
-    margin-bottom: 0%;
-    font-weight: 900;
-}
+
 .imgclass{
     background-color: #d2d0d0;
     border-radius: 6px;
