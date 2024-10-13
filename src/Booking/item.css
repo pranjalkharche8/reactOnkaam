@@ -1,0 +1,40 @@
+h3{
+    margin: 0.5rem;
+}
+.itemmain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.itemheadings{
+    display: flex;
+    flex-direction: column;
+}
+.itemheadings p{
+    text-align: left;
+    margin-left: 1.1rem;
+    margin-bottom: 0%;
+    font-weight: 900;
+}
+
+.itemheadings p{
+    text-align: left;
+    margin-left: 1.1rem;
+    margin-bottom: 0%;
+    font-weight: 900;
+}
+.imgclass{
+    background-color: #d2d0d0;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    margin-right: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}

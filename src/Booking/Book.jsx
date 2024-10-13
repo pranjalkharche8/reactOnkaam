@@ -4,20 +4,26 @@ import Breakline from "../BreakLine.jsx";
 import "./Book.css"
 import { Link } from 'react-router-dom';
 import Homepage from "../HomePage.jsx";
-export default function Booking(){
+import Itemfunction from './items.jsx';
+import Sample from "../assets/acweb.webp";
+import Linee from './line.jsx';
+export default function Booking() {
     return (
         <>
-        <div className='elemain'>
-        <div className='electricianc'>
-            <Link to="/">
-        <i class="fa-solid fa-arrow-left fa-lg"></i>
-        </Link>
-        <h3>Electrician</h3>
-        </div>
-        <Breakline></Breakline>
-        </div>
-        
-        <Bottomnavfunction></Bottomnavfunction>
+            <div className='elemain'>
+                <div className='electricianc'>
+                    <Link to="/">
+                        <i class="fa-solid fa-arrow-left fa-lg"></i>
+                    </Link>
+                    <h3>Electrician</h3>
+                </div>
+                <Breakline></Breakline>
+                <h3>Switch & Socket</h3>
+                <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                <Linee></Linee>
+            </div>
+
+            <Bottomnavfunction></Bottomnavfunction>
         </>
     )
 }
