@@ -5,6 +5,7 @@ import Breakline from '../BreakLine';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import Bottomnavfunction from '../Bottom_nav';
+import Footerfunction from '../Footer';
 export default function Billfunction() {
     const location = useLocation();
     let itemp = location.state.pricess.prices;
@@ -54,13 +55,48 @@ export default function Billfunction() {
                     </p>
                 </div>
                 <Breakline></Breakline>
+                <div className='canPolicy'>
+                    <h3 style={{
+                        marginTop: "0.6rem", fontSize: "24px"
+                        , marginBottom: "1rem"
+                    }}>When should the professional arrive?</h3>
 
+                </div>
+
+                <div className='timeslot'>
+
+                    <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">Today</button>
+                    <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">Tommrow</button>
+                    {/* <button type="button" class="btn btn-dark">Dark</button> */}
+                </div>
+                <Linee></Linee>
+                <div className='canPolicy'>
+                    <h3 style={{ marginTop: 0, marginBottom: "1.2rem", fontSize: "24px" }}>Select start time of service</h3>
+                </div>
+            </div>
+            <div className='timeslot'>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">08:30 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">09:00 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">09:30 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">10:00 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">10:30 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">11:00 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">11:30 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">12:00 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">12:30 PM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">01:00 PM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">01:30 PM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">02:00 PM</button>            <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">08:30 AM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">02:30 PM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">03:00 PM</button>
+                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">03:30 AM</button>
             </div>
             <div className='slot'>
                 <Link to="/time">
-                    <button class="btn btn-primary btn-lg btn-block">Select Time & Date</button>
+                    <button class="btn btn-primary btn-lg btn-block">Select Address</button>
                 </Link>
             </div>
+            <Footerfunction></Footerfunction>
             <Bottomnavfunction></Bottomnavfunction>
         </>
     )
