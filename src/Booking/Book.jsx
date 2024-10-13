@@ -28,37 +28,37 @@ export default function Booking() {
                 </div>
                 <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="56" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="52" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="512" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59657" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="593453" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="5879" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="59" image={Sample}></Itemfunction>
+                    <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="5797" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
             </div>

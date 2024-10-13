@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 export default function ParentComponent(){
-    const id =6;
+    const id ="akshat";
     const navigate =useNavigate();
 
     function go(){
-        navigate("/child",{state :{ids:id}});
+        navigate("/child",{state :{id}});
     }
     return (
         <div>

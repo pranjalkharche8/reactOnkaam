@@ -2,19 +2,16 @@ import React, { useState } from 'react';
 import "./item.css";
 import Billfunction from './bills';
 import { Link } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Itemfunction({ Itemname, rating, prices, image }) {
-    let [view,setview]=useState(false);
-
-    function clickrender(){
-        setview(true);
-        <Billfunction amount="4354345"></Billfunction>
-        console.log("akshat");
+    let pricess = {prices};
+    let navigator = useNavigate();
+    function redirectt(){
+        navigator("/bill",{state: {pricess:pricess}});
     }
     return (
-
         <div className='itemmain'>
             <div className='itemheadings'>
                 <h3 >{Itemname}</h3>
@@ -29,9 +26,7 @@ export default function Itemfunction({ Itemname, rating, prices, image }) {
                 <img src={image} alt="sample" height="50px" width="50px" />
             </div>
 
-            <Link to="/bill">
-            <h3  onClick={clickrender} style={{ margin: 0, marginTop: "4px", color: "blue" ,textDecoration:"none"}} >More Details</h3>
-            </Link>
+            <h3  onClick={redirectt} style={{ margin: 0, marginTop: "4px", color: "blue" ,textDecoration:"none"}} >More Details</h3>
         </div>
     )
 }
