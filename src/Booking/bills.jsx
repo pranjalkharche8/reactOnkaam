@@ -19,7 +19,7 @@ export default function Billfunction() {
         <>
             <div className='elemain'>
                 <div className='electricianc'>
-                    <Link to="/book">
+                    <Link to="/">
                         <i class="fa-solid fa-arrow-left fa-lg"></i>
                     </Link>
                     <h3 style={stye}>Booking</h3>
@@ -75,7 +75,7 @@ export default function Billfunction() {
                 </div>
             </div>
             <div className='timeslot'>
-                <button type="submit" className='btntime'>8:00 AM</button>
+                <button style={{boxShadow:"none"}}type="submit" className='btntime'>8:00 AM</button>
                 <button type="submit" className='btntime'>8:30 AM</button>
                 <button type="submit" className='btntime'>9:00 AM</button>
                 <button type="submit" className='btntime'>9:30 AM</button>
@@ -99,7 +99,7 @@ export default function Billfunction() {
             </div>
             <div className='slot'>
                 <Link to="/time">
-                    <button class="btn btn-primary btn-lg btn-block">Select Address</button>
+                    <button style={{boxShadow:"none"}} class="btn btn-primary btn-lg btn-block">Select Address</button>
                 </Link>
             </div>
             <Footerfunction></Footerfunction>

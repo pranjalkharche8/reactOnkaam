@@ -35,7 +35,7 @@ export default function bnav() {
                 <p>Home</p></Link>
             <Link to="/assistant" onClick={change} className='Icons'><i className="fas fa-comment-dots fa-lg"></i>
                 <p>Assistant</p></Link>
-            <Link to="/account" onClick={change} className='Icons'><i className="fas fa-user-tie fa-lg"></i>
+            <Link to="/login" onClick={change} className='Icons'><i className="fas fa-user-tie fa-lg"></i>
                 <p>Account</p></Link>
         </div>
 

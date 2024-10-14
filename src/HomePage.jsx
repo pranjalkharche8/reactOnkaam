@@ -1,30 +1,35 @@
 import React from 'react';
 import Navbarfunction from './Navbar';
 import Footerfunction from './Footer';
-import Bottomnavfunction from './Bottom_navigation';
+import Bottomnavfunction from './Bottom_nav';
 import Servicesfunction from './Services';
 import BreakLO from './BreakLine';
 import Search from "./importstyle/searchbar.jsx"
 import Airfunction from './Aircon';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Errorr from './Error';
 import Bnav from './Bottom_nav';
 import Locatdect from './Location';
 import Booking from './Booking/Book';
 import ParentComponent from './Assitants/Paresnt';
-export default function homepageFunction(){
-    return(
+import "./HomePage.css";
+export default function homepageFunction() {
+    return (
         <div>
             <Navbarfunction></Navbarfunction>
             <Servicesfunction></Servicesfunction>
-            {/* <Bottomnavfunction></Bottomnavfunction> */}
             <BreakLO></BreakLO>
-            {/* <Airfunction Heading="Repair & Maintenance"></Airfunction> */}
-            {/* <BreakLO></BreakLO> */}
-            {/* <Airfunction Heading="Electrical Services"></Airfunction> */}
-            {/* <Bnav></Bnav> */}
-            <Booking></Booking>
-            {/* <ParentComponent></ParentComponent> */}
+            <div className='connn'>
+
+                <div class="card">
+                    <div class="card_load"></div>
+                    <div class="card_load_extreme_title"></div>
+                    <div class="card_load_extreme_descripion"></div>
+                </div>
+               
+            </div>
+            <h1>Comming Soon...</h1>
+            <Bottomnavfunction></Bottomnavfunction>
             <Footerfunction></Footerfunction>
         </div>
     )

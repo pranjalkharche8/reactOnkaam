@@ -11,12 +11,26 @@ import { Link } from 'react-router-dom';
 export default function Servicesfunction() {
     return (
         <div className='servicesClass'>
-            <h3>Explore all services</h3>
+            <div class="cardd">
+                <div class="loader">
+                    <p>Explore Our</p>
+                    <div class="words">
+                        <span class="word">AC Services</span>
+                        <span class="word">Painter Services</span>
+                        <span class="word">Electrician Services</span>
+                        <span class="word">Plumber Services</span>
+                        <span class="word">Home Cleaning</span>
+                        <span class="word">Salons Services</span>
+                    </div>
+                </div>
+            </div>
+
+
             <div className='servicesContainer'>
                 <div className='serCon'>
                     <div className='ser'>
-                        <Link to="/acc">           
-                        <img src={ac} alt='painter' width="90px" height="50px" />
+                        <Link to="/acc">
+                            <img src={ac} alt='painter' width="90px" height="50px" />
                         </Link>
                     </div>
                     <p className='para'>AC Repair &</p>
@@ -25,7 +39,7 @@ export default function Servicesfunction() {
                 <div className='serCon'>
                     <div className='ser'>
                         <Link to="/painter">
-                        <img src={painter} alt="akshta" width="90px" height="50px"></img>
+                            <img src={painter} alt="akshta" width="90px" height="50px"></img>
                         </Link>
                     </div>
                     <p className='para'>Painter</p>
@@ -34,7 +48,7 @@ export default function Servicesfunction() {
                 <div className='serCon'>
                     <div className='ser'>
                         <Link to="/plumber">
-                        <img src={plumber}  alt="akshta" width="90px" height="50px"></img>
+                            <img src={plumber} alt="akshta" width="90px" height="50px"></img>
                         </Link>
                     </div>
                     <p className='para'>Plumber</p>
@@ -42,7 +56,7 @@ export default function Servicesfunction() {
                 <div className='serCon'>
                     <div className='ser'>
                         <Link to="/electrician">
-                        <img src={electrician}  alt="akshta" width="90px" height="50px"></img>
+                            <img src={electrician} alt="akshta" width="90px" height="50px"></img>
                         </Link>
                     </div>
                     <p className='para'>Electrician</p>
@@ -50,7 +64,7 @@ export default function Servicesfunction() {
                 <div className='serCon'>
                     <div className='ser'>
                         <Link to="/cleaning">
-                        <img src={cleaning} width="90px" alt="akshta" height="50px"></img>
+                            <img src={cleaning} width="90px" alt="akshta" height="50px"></img>
                         </Link>
                     </div>
                     <p className='para'>Full Home</p>
@@ -59,7 +73,7 @@ export default function Servicesfunction() {
                 <div className='serCon'>
                     <div className='ser'>
                         <Link to="/salons">
-                        <img src={hair} alt="adssd" width="90px" height="50px"></img>
+                            <img src={hair} alt="adssd" width="90px" height="50px"></img>
                         </Link>
                     </div>
                     <p className='para'>Men & Women </p>
