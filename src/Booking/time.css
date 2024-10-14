@@ -1,0 +1,18 @@
+.inputadd{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
+.inputadd input{
+    height: 45px;
+    border-radius: 6px;
+    padding-left: 12px;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}

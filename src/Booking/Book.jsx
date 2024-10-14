@@ -8,7 +8,7 @@ import Itemfunction from './items.jsx';
 import Sample from "../assets/acweb.webp";
 import Linee from './line.jsx';
 export default function Booking() {
-    let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: "1rem", fontSize: "28px" };
+    let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: "1.5rem", fontSize: "28px" };
     let stye = { fontWeight: 900 };
     return (
         <>

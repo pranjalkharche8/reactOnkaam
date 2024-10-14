@@ -12,6 +12,7 @@ export default function Itemfunction({ Itemname, rating, prices, image }) {
         navigator("/bill", { state: { pricess: pricess } });
     }
     return (
+        <>
         <div className='itemmain'>
             <div className='itemheadings'>
                 <h3 >{Itemname}</h3>
@@ -26,7 +27,10 @@ export default function Itemfunction({ Itemname, rating, prices, image }) {
                 <img src={image} alt="sample" height="50px" width="50px" />
             </div>
 
-            <h3 onClick={redirectt} style={{ margin: 0, marginTop: "4px", color: "blue", textDecoration: "none" }} >More Details</h3>
+            
+            
         </div>
+        <h3 onClick={redirectt} style={{ fontSize:"1.3rem",marginLeft:"1.1rem", marginTop: "4px", color: "blue", textDecoration: "none" }} >More Details</h3>
+        </>
     )
 }
