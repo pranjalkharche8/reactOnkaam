@@ -7,6 +7,7 @@ import Linee from './line';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
+import Input from '../inputt';
 
 export default function Timeanddate() {
     let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: 0, fontSize: "20px" };
@@ -47,15 +48,21 @@ export default function Timeanddate() {
                     <input type="text" placeholder='House/Flat (Number)' required />
                     <input type="text" placeholder='Landmark (Optional)' />
                     <input type="text" value={apii.postcode} placeholder='Pincode' required />
-                    <div className='ckeck'>
-                        <input type="checkbox" style={{ marginBottom: 0, marginRight: "6px" }} id="coding" name="interest" value="coding" />
-                        <label for="coding">Home</label>
-                    </div>
-                    <div className='ckeck'>
-                        <input type="checkbox" style={{ marginBottom: 0, marginRight: "6px" }} id="music" />
-                        <label for="music">Other</label>
+                    <div class="mydict">
+                        <div>
+                            <label>
+                                <input type="radio" name="radio" />
+                                <span>Home</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="radio" />
+                                <span>Other</span>
+                            </label>
+
+                        </div>
                     </div>
                     <input style={{ marginTop: "1rem" }} type="text" placeholder='Mobile Number' required />
+                    {/* <Input></Input> */}
                 </div>
                 <Breakline></Breakline>
                 <div>
