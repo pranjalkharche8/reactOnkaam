@@ -15,7 +15,7 @@ export default function Servicesfunction() {
             <div className='servicesContainer'>
                 <div className='serCon'>
                     <div className='ser'>
-                        <Link to="/book">           
+                        <Link to="/acc">           
                         <img src={ac} alt='painter' width="90px" height="50px" />
                         </Link>
                     </div>
@@ -24,33 +24,43 @@ export default function Servicesfunction() {
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
+                        <Link to="/painter">
                         <img src={painter} alt="akshta" width="90px" height="50px"></img>
+                        </Link>
                     </div>
                     <p className='para'>Painter</p>
                     <p></p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
+                        <Link to="/plumber">
                         <img src={plumber}  alt="akshta" width="90px" height="50px"></img>
+                        </Link>
                     </div>
                     <p className='para'>Plumber</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
+                        <Link to="/electrician">
                         <img src={electrician}  alt="akshta" width="90px" height="50px"></img>
+                        </Link>
                     </div>
                     <p className='para'>Electrician</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
+                        <Link to="/cleaning">
                         <img src={cleaning} width="90px" alt="akshta" height="50px"></img>
+                        </Link>
                     </div>
                     <p className='para'>Full Home</p>
                     <p className='para'>Deep Cleaning</p>
                 </div>
                 <div className='serCon'>
                     <div className='ser'>
+                        <Link to="/salons">
                         <img src={hair} alt="adssd" width="90px" height="50px"></img>
+                        </Link>
                     </div>
                     <p className='para'>Men & Women </p>
                     <p className='para'>Salons</p>

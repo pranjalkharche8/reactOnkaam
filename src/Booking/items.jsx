@@ -26,11 +26,8 @@ export default function Itemfunction({ Itemname, rating, prices, image }) {
             <div className='imgclass'>
                 <img src={image} alt="sample" height="50px" width="50px" />
             </div>
-
-            
-            
         </div>
-        <h3 onClick={redirectt} style={{ fontSize:"1.3rem",marginLeft:"1.1rem", marginTop: "4px", color: "blue", textDecoration: "none" }} >More Details</h3>
+        <h3 onClick={redirectt} style={{ fontWeight:700,fontSize:"1.3rem",marginLeft:"1.1rem", marginTop: "4px", color: "blue", textDecoration: "none" }} >More Details</h3>
         </>
     )
 }

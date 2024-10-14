@@ -4,32 +4,32 @@ import Breakline from '../BreakLine';
 import Bottomnavfunction from '../Bottom_nav';
 import "./time.css";
 import Linee from './line';
-import {useState}  from 'react';
-import {useEffect}  from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
 import axios from 'axios';
 
 export default function Timeanddate() {
     let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: 0, fontSize: "20px" };
     let stye = { fontWeight: 900 };
-    let[apii,setapii] = useState("");
+    let [apii, setapii] = useState("");
     console.log(apii);
-    useEffect(()=>{
-        navigator.geolocation.getCurrentPosition(pos=>{
-            const {latitude, longitude} = pos.coords;
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(pos => {
+            const { latitude, longitude } = pos.coords;
             console.log(latitude, longitude);
             let url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`;
-            async function apies(){
-                try{
+            async function apies() {
+                try {
                     let appp = await axios.get(url);
                     setapii(appp.data.address);
-                    
-                }catch(err){
+
+                } catch (err) {
                     console.log(err);
                 }
             }
             apies();
         })
-    },[])
+    }, [])
     return (
         <>
             <div className='elemain'>
@@ -47,15 +47,19 @@ export default function Timeanddate() {
                     <input type="text" placeholder='House/Flat (Number)' required />
                     <input type="text" placeholder='Landmark (Optional)' />
                     <input type="text" value={apii.postcode} placeholder='Pincode' required />
-                    <div>
-                    <input type="checkbox" id="coding" name="interest" value="coding" />
-                    <label for="coding">Home</label>
+                    <div className='ckeck'>
+                        <input type="checkbox" style={{ marginBottom: 0, marginRight: "6px" }} id="coding" name="interest" value="coding" />
+                        <label for="coding">Home</label>
                     </div>
-                    <div>
-                    <input type="checkbox" id="music" name="interest" value="music" />
-                    <label for="music">Other</label>
+                    <div className='ckeck'>
+                        <input type="checkbox" style={{ marginBottom: 0, marginRight: "6px" }} id="music" />
+                        <label for="music">Other</label>
                     </div>
-                    <input type="text" placeholder='Mobile Number' required />
+                    <input style={{ marginTop: "1rem" }} type="text" placeholder='Mobile Number' required />
+                </div>
+                <Breakline></Breakline>
+                <div>
+                    <h3 style={sty}>Terms and Conditions</h3>
                 </div>
             </div>
             <div className='slot'>
@@ -63,7 +67,6 @@ export default function Timeanddate() {
                     <button class="btn btn-primary btn-lg btn-block">Processed To Payment</button>
                 </Link>
             </div>
-            <div></div>
             <Bottomnavfunction></Bottomnavfunction>
         </>
     )

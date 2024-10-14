@@ -14,6 +14,11 @@ import Book from './Booking/Book.jsx';
 import Billfunction from './Booking/bills.jsx';
 import Childdd from './Assitants/Child.jsx';
 import Timeanddate from './Booking/time.jsx';
+import Accc from "./AC/Acc.jsx";
+import Clean from "./Cleaning/Cleaning.jsx";
+import Painter from "./Painter/Painter.jsx";
+import Plumb from "./Plumber/Plumber.jsx";
+import Salonss from "./Salons/Salons.jsx";
 createRoot(document.getElementById('root')).render(
   <div>
     <BrowserRouter>
@@ -24,11 +29,16 @@ createRoot(document.getElementById('root')).render(
         <Route path="/booking" element={<Booking />}></Route>
         <Route path="/assistant" element={<Assistant />}></Route>
         <Route path="/account" element={<Account />}></Route>
-        <Route path="/book" element={<Book/>}></Route>
+        <Route path="/electrician" element={<Book/>}></Route>
         <Route path='*' element={<Errorr/>}></Route>
         <Route path='/bill' element={<Billfunction></Billfunction>}></Route>
         <Route path='/child' element={<Childdd></Childdd>}></Route>
         <Route path="/time" element={<Timeanddate></Timeanddate>}></Route>
+        <Route path='/painter' element={<Painter></Painter>}></Route>
+        <Route path='/salons' element={<Salonss></Salonss>}></Route>
+        <Route path='/plumber' element={<Plumb></Plumb>}></Route>
+        <Route path="/cleaning" element={<Clean></Clean>}></Route>
+        <Route path='/acc' element={<Accc></Accc>}></Route>
       </Routes>
     </BrowserRouter>
   </div>
