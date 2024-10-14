@@ -52,12 +52,14 @@
     width: 100%;
     overflow: hidden;
     position: fixed;
-    bottom: 65px;
+    bottom: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 2px;
-    /* background-color: white; */
+    align-items: center;
+    /* margin-bottom: 2px; */
+    background-color: white;
+    height: 60px;
 }
 .slot button{
     width: 350px;
@@ -76,10 +78,16 @@
     /* margin-top: 1rem; */
 }
 .timeslot button{
-    height: 50px;
-    width: 70px;
     margin: 0.4rem;
 }
-.btnnnn{
-
+.btntime{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    width: 95px;
 }

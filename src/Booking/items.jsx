@@ -6,10 +6,10 @@ import { useNavigate } from 'react-router-dom';
 
 
 export default function Itemfunction({ Itemname, rating, prices, image }) {
-    let pricess = {prices};
+    let pricess = { prices };
     let navigator = useNavigate();
-    function redirectt(){
-        navigator("/bill",{state: {pricess:pricess}});
+    function redirectt() {
+        navigator("/bill", { state: { pricess: pricess } });
     }
     return (
         <div className='itemmain'>
@@ -26,7 +26,7 @@ export default function Itemfunction({ Itemname, rating, prices, image }) {
                 <img src={image} alt="sample" height="50px" width="50px" />
             </div>
 
-            <h3  onClick={redirectt} style={{ margin: 0, marginTop: "4px", color: "blue" ,textDecoration:"none"}} >More Details</h3>
+            <h3 onClick={redirectt} style={{ margin: 0, marginTop: "4px", color: "blue", textDecoration: "none" }} >More Details</h3>
         </div>
     )
 }

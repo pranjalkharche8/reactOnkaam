@@ -9,7 +9,7 @@ import Footerfunction from '../Footer';
 export default function Billfunction() {
     const location = useLocation();
     let itemp = location.state.pricess.prices;
-    let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: "1rem", fontSize: "28px" };
+    let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: "1rem", fontSize: "25px" };
     let stye = { fontWeight: 900 };
     let fees = 12;
     let visting = 50;
@@ -57,7 +57,7 @@ export default function Billfunction() {
                 <Breakline></Breakline>
                 <div className='canPolicy'>
                     <h3 style={{
-                        marginTop: "0.6rem", fontSize: "24px"
+                        marginTop: "0.6rem", fontSize: "20px"
                         , marginBottom: "1rem"
                     }}>When should the professional arrive?</h3>
 
@@ -65,8 +65,8 @@ export default function Billfunction() {
 
                 <div className='timeslot'>
 
-                    <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">Today</button>
-                    <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">Tommrow</button>
+                    <button style={{ width: "100px" }} type="button" class="btntime">Today</button>
+                    <button style={{ width: "100px" }} type="button" class="btntime">Tomorrow</button>
                     {/* <button type="button" class="btn btn-dark">Dark</button> */}
                 </div>
                 <Linee></Linee>
@@ -75,21 +75,27 @@ export default function Billfunction() {
                 </div>
             </div>
             <div className='timeslot'>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">08:30 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">09:00 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">09:30 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">10:00 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">10:30 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">11:00 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">11:30 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">12:00 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">12:30 PM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">01:00 PM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">01:30 PM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">02:00 PM</button>            <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">08:30 AM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">02:30 PM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">03:00 PM</button>
-                <button style={{ width: "100px", fontWeight: 650 }} type="button" class="btn btn-dark">03:30 AM</button>
+                <button type="submit" className='btntime'>8:00 AM</button>
+                <button type="submit" className='btntime'>8:30 AM</button>
+                <button type="submit" className='btntime'>9:00 AM</button>
+                <button type="submit" className='btntime'>9:30 AM</button>
+                <button type="submit" className='btntime'>10:00 AM</button>
+                <button type="submit" className='btntime'>10:30 AM</button>
+                <button type="submit" className='btntime'>11:00 AM</button>
+                <button type="submit" className='btntime'>11:30 AM</button>
+                <button type="submit" className='btntime'>12:00 AM</button>
+                <button type="submit" className='btntime'>12:30 AM</button>
+                <button type="submit" className='btntime'>1:00 AM</button>
+                <button type="submit" className='btntime'>1:30 AM</button>
+                <button type="submit" className='btntime'>2:00 AM</button>
+                <button type="submit" className='btntime'>2:30 AM</button>
+                <button type="submit" className='btntime'>3:00 AM</button>
+                <button type="submit" className='btntime'>3:30 AM</button>
+                <button type="submit" className='btntime'>4:00 AM</button>
+                <button type="submit" className='btntime'>4:30 AM</button>
+                <button type="submit" className='btntime'>5:00 AM</button>
+                <button type="submit" className='btntime'>5:30 AM</button>
+                <button type="submit" className='btntime'>6:00 AM</button>
             </div>
             <div className='slot'>
                 <Link to="/time">
