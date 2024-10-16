@@ -5,6 +5,7 @@ import "./Bottom_navigation.css"
 
 
 let r = false;
+let n = false;
 function change() {
     r = true;
 }
@@ -19,13 +20,15 @@ export default function bnav() {
 
     return (
         <div className="footerClass">
-            <Link to="/ar" onClick={change} className='Icons'><i className="fas fa-vr-cardboard fa-lg"></i>
+
+
+            <Link to="/ar" onClick={classchange} className='Icons'><i className="fas fa-vr-cardboard fa-lg"></i>
+            
                 <p>AR</p>
             </Link>
-
-            
+        {/*             
             <Link to="/booking" onClick={change} className='Icons'><i className="fas fa-clipboard-list fa-lg"></i>
-                <p>Booking</p></Link>
+                <p>Booking</p></Link> */}
 
 
             <Link to="/" className='Icons' onClick={classchange}>

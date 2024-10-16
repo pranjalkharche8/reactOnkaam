@@ -65,8 +65,8 @@ export default function Billfunction() {
 
                 <div className='timeslot'>
 
-                    <button style={{ width: "100px" }} type="button" class="btntime">Today</button>
-                    <button style={{ width: "100px" }} type="button" class="btntime">Tomorrow</button>
+                    <button style={{ width: "100px" }} type="button" class="btntimee">Today</button>
+                    <button style={{ width: "100px" }} type="button" class="btntimee">Tomorrow</button>
                     {/* <button type="button" class="btn btn-dark">Dark</button> */}
                 </div>
                 <Linee></Linee>
