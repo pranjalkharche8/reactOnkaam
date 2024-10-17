@@ -1,5 +1,20 @@
 /* From Uiverse.io by eslam-hany */ 
+.nn{
+  display: flex;
+  flex-direction: column;
+  width: strench;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.imagesvg{
+  height: 150px;
+  width: 150px;
+}
+
 .form {
+  width: 330px;
+    margin-top: 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -14,7 +29,15 @@
     transition: all 0.3s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     animation: form-animation 0.5s ease-in-out;
-  }
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
   
   @keyframes form-animation {
     from {

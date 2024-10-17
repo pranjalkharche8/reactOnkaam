@@ -10,7 +10,7 @@ import axios from 'axios';
 import Input from '../inputt';
 
 export default function Timeanddate() {
-    let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: 0, fontSize: "20px" };
+    let sty = { fontWeight: 900, marginTop: "0.8rem", marginBottom: 0,marginRight:"1rem", fontSize: "20px" };
     let stye = { fontWeight: 900 };
     let [apii, setapii] = useState("");
     console.log(apii);
@@ -42,7 +42,7 @@ export default function Timeanddate() {
                 </div>
                 <Breakline></Breakline>
                 <div>
-                    <h3 style={sty}>{apii.city_district},{apii.state},{apii.postcode}</h3>
+                    <h3 style={sty}>{apii.residential} {apii.road} {apii.city} {apii.state} {apii.postcode}</h3>
                 </div>
                 <div className='inputadd'>
                     <input type="text" placeholder='House/Flat (Number)' required />
